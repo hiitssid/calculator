@@ -13,7 +13,7 @@ button.map((button) => {
         break;
 
       case "=":
-        display.innerText = eval(display.innerText);
+        // ----------------code here--------------
         break;
       default:
         display.innerText += e.target.innerText;
